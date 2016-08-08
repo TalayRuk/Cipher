@@ -7,4 +7,9 @@ $(function() {
   var letterL = l.toUpperCase();
   var newsentence = letterF + sentence.substr(1,sentence.length-2) + letterL ;
   alert(newsentence);
+
+  var newsentence = letterL + sentence.substr(1,sentence.length-2) + letterF ;
+  alert(newsentence);
+
+
 });
