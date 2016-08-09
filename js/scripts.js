@@ -1,6 +1,22 @@
 $(function() {
 
   var sentence = prompt("Enter a sentence");
+
+
+
+  $("h1").click(function() {
+    alert(sentence);
+  });
+
+  $("h2").click(function() {
+    alert(newsentence);
+  });
+
+
+
+
+
+
   var f = sentence.charAt(0);
   var l = sentence.charAt(sentence.length-1);
   var letterF = f.toUpperCase();
@@ -18,4 +34,9 @@ $(function() {
   var length = length.toUpperCase();
   var newsentence = length + sentence + letterL + letterF ;
   alert(newsentence);
+
+
+
+
+
 });
